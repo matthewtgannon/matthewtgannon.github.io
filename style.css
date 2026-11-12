@@ -64,9 +64,9 @@ figure { margin: 0; }
 .entries { list-style: none; margin: 0; padding: 0; }
 .entries li { display: grid; grid-template-columns: 3.25rem 1fr; gap: .9rem; margin: 0 0 1.25rem; }
 .entries li:last-child { margin: 0; }
-.year { padding-top: .2rem; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.year { padding-top: .2rem; font-size: .82rem; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
 .cite { font-size: .95rem; line-height: 1.65; }
-.cite a { font-weight: 500; color: var(--accent); }
+.cite a { font-weight: 500; }
 .cite a:hover { text-decoration: underline; text-underline-offset: 4px; }
 
 /* Footer */
@@ -78,4 +78,5 @@ footer { border-top: 1px solid var(--rule); padding: 1.25rem 0; text-align: cent
   .top nav a { margin-left: 1.25rem; }
   .split, .group { grid-template-columns: 1fr; gap: 1.75rem; }
   figure { order: -1; }
+  .links { grid-template-columns: 1fr; gap: .8rem; }
 }
